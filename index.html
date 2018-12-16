@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>
+    <script src="/effects.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="grid.css">
+    <title>Raymond Chen</title>
+</head>
+
+<body>
+        <nav role="navigation">
+                <div id="menuToggle" class="come-in">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    <a href="#section-1a"><li>Insight</li></a>
+                    <a href="#section-b"><li>Portfolio</li></a>
+                    <a href="mailto:c.raymondchen@gmail.com"><li>Contact</li></a>
+                    <a href="https://www.linkedin.com/in/raymondchen0/
+                    " target="_blank"><li>LinkedIn</li></a>
+                    <a href="https://github.com/raymondchen0
+                    " target="_blank"><li>GitHub</li></a>
+                  </ul>
+                </div>
+              </nav>
+
+    <!-- Header Showcase -->
+    <div class="content-wrap2 grid">
+        <a href="https://raymondchen0.github.io/index">
+        <div class="top-banner come-in"><img src="/img/banner.svg" alt="Raymond Chen"></div>
+    </a>
+    </div>
+    <header id="showcase" class="grid come-in">
+        <div class="bg-image"></div>
+        <div class="content-wrap2">
+            <h1>Good design is all about making other designers feel like idiots because that idea wasn’t theirs.</h1>
+            <p>Raymond Chen — Graphic Designer</p>
+            <a href="#section-1a" class="btn">Explore</a>
+        </div>
+        <!-- right portion of header / showcase -->
+        <section id="showcase-right" class="grid">
+            <div class="content-wrap-r">
+                <h2>Get in touch &#8628</h2>
+              
+                <div class="left-spacer">
+                    <p>Interested in what you see? You should follow me on <a href="https://www.linkedin.com/in/raymondchen0/
+                        " target="_blank"><strong>LinkedIn</strong></a> and subscribe here to keep updated.
+                        Better yet, send me some good news! You can contact me at: <strong id="email"><a href="mailto:c.raymondchen@gmail.com">c.raymondchen@gmail.com</a></strong></p>
+                </div>
+                <h2>What about me? &#8628</h2>
+                <div class="left-spacer">
+                    <p>While I do enjoy designing and creating new pieces or work / art I also know that I need other things in life to keep me going, I really don't want to get burned out. I am an avid PC gamer and I also enjoy playing basketball with friends. However, if you're more interested in just my designs you should follow me on <a href="https://github.com/raymondchen0
+                        " target="_blank"><strong>Github</a></p>
+                </div>
+                <h2>Current Status: &#8628</h2>
+                <div class="left-spacer">
+                    <p>Enrolled: <font color="gold">University of Massachusetts Dartmouth</font> <strong> 3rd Year / Junior, Working towards BFA: Graphic Design</strong></p>
+                </div>
+            </div>
+        </section>
+        <!-- section A -->
+        <section-a class="grid">
+        </section-a>
+    </header>
+    <!-- slider  -->
+
+    <!-- Main Area -->
+    <main id="main">
+        <section id="section-1a" class="grid">
+            <div class="insights">
+                <h2>Me <span class="magentatxt">&#x263a</span></h2>
+                <p>Hello, I'm so excited that you've somehow found your way to my portfolio site. It may have been pure
+                    luck that you stumbled upon this one webpage in a sea of millions. Anyways, my name is Raymond
+                    Chen. I am from Boston Massachusetts, USA. Enjoy the website and if anything catches your eye or if
+                    you have any questions feel free to contact me!</p>
+            </div>
+            <div class="insights">
+                <h2>Insights <span class="magentatxt">&#x1f441</span></h2>
+                <p>I am a Junior Graphic Design student at the <font color="gold">University of Massachusetts
+                        Dartmouth</font> where I am currently pursuing my Bachelor's degree. I enjoy the challenges
+                    associated with code digital designs such as the simple act coding or the tedious nature of
+                    creating something that is responsive. Overall I just love the challenges. In my work, I tend to
+                    use subtle details in my code. I truly believe these subtle details allow me to stand out from
+                    others as facets</p>
+                <p>You've probably grown bored reading aobut me. Instead you should scroll down or click the arrow to
+                    see some of my work. <span class="purpletxt"><a href="#section-b">&#8628</a></span></p>
+            </div>
+        </section>
+        <section id="section-b" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <div id="item">
+                            <img id="itemtest" src="/img/DATA Final 2.jpg" alt="Culute & Music">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Music & Culture</h3>
+                            <p>Data on how culture influences at school impact music choices.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div id="item1">
+                            <img id="itemtest1" src="/img/poster1.jpg" alt="Fuego Poster">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Have You Eaten Yet?</h3>
+                            <p>A poster in a series of posters depicting reactions towards the sharing of food and how
+                                the act of sharing foods creates a new sense of family,</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div id="item2">
+                            <img id="itemtest2" src="/img/Island.jpg" alt="Island">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">The Island</h3>
+                            <p>Photo Manipulation depicting a postcardesque scene of an island.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div id="item3">
+                            <img id="itemtest3" src="/img/Man on Bench.jpg" alt="Worries">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Worries</h3>
+                            <p>Depiction of a man on bench with shadowy figures behind, metaphor.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div id="item4">
+                            <img id="itemtest4" src="/img/bodoni.jpg" alt="Bodoni Poster">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Bodoni Poster</h3>
+                            <p>A poster which uses the typeface Bodoni. Made in an attempt to visualize the subtle
+                                features of the type-face.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div id="item5">
+                            <img id="itemtest5" src="/img/headphones.jpg" alt="Headphones">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Headphones</h3>
+                            <p>Poster designed to pay homage to the creation of headphones.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- Section D -->
+       
+   
+        <!-- </section>
+        SECTION B2 / FUTURE PORTFOLIO -->
+        <!-- <section id="section-b" class="grid">
+                <ul>
+                    <li>
+                        <div class="card">
+                            <img src="/img/DATA Final 2.jpg" alt="">
+                            <div class="card-content">
+                                <h3 class="card-title">Web Development</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+                                    quasi velit voluptatum cum maiores exercitationem.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                            <div class="card">
+                                <img src="/img/poster1.jpg" alt="">
+                                <div class="card-content">
+                                    <h3 class="card-title">Web Development</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+                                        quasi velit voluptatum cum maiores exercitationem.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                                <div class="card">
+                                    <img src="/img/Island.jpg" alt="">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Web Development</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+                                            quasi velit voluptatum cum maiores exercitationem.</p>
+                                    </div>
+                                </div>
+                            </li>
+                    <li>
+                        <div class="card">
+                            <img src="/img/Man on Bench.jpg" alt="">
+                            <div class="card-content">
+                                <h3 class="card-title">Web Development</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+                                    quasi velit voluptatum cum maiores exercitationem.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <img src="/img/bodoni.jpg" alt="">
+                            <div class="card-content">
+                                <h3 class="card-title">Mobile Applications</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+                                    quasi velit voluptatum cum maiores exercitationem.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <img src="/img/headphones.jpg" alt="">
+                            <div class="card-content">
+                                <h3 class="card-title">Tech Marketing</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et
+                                    quasi velit voluptatum cum maiores exercitationem.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section> -->
+  
+        </section>
+        <!-- Section C -->
+        
+    </main>
+
+    <!-- MODAL -->
+    <!-- Trigger the Modal -->
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        <!-- Modal Caption (Image Text)
+        <div id="caption"></div> -->
+    </div>
+    <script src="/modal.js"></script>
+</body>
+</html>
