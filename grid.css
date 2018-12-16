@@ -449,10 +449,10 @@ a:hover
       width: 31%;
     }
     /* portofli // card sections */
-    .card {
+    .card img{
       width: 100%;
       box-shadow: 0px 1px 8px rgb(24, 24, 24);
-      filter: saturate(50%);
+      filter: saturate(40%);
       cursor: pointer;
     }
     .card img:hover {
